@@ -11,11 +11,15 @@ A simple C++ program that converts weight between kilograms and pounds based on 
 ## How It Works
 1. The program prompts the user to input their weight.
 2. It asks the user to specify the unit of the weight:
+
    Enter P or p for pounds.
+
    Enter K or k for kilograms.
 3. Based on the unit entered:
+
    If P/p, the weight is converted to kilograms using the formula:
    Kilograms = Pounds × 0.45
-  If K/k, the weight is converted to pounds using the formula:
-  Pounds = Kilograms ÷ 0.45
+
+   If K/k, the weight is converted to pounds using the formula:
+   Pounds = Kilograms ÷ 0.45
 4. The program outputs the converted weight. If the user enters an invalid unit, the program displays an error message and terminates.
